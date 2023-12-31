@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background-image: url(https://static.igem.wiki/teams/4146/wiki/wiki-test/bg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.block-first img {
+    width: 37%;
+    float: left;
+}
+
+.nav-logo {
+    display: inline-block;
+    width: 6vw;
+    margin-right: 12vw;
+    margin-top: 3%;
+}
+
+.logo img {
+    width: 35%;
+    position: absolute;
+    left: 4%;
+    top: 8vw;
+}
+
+.para1 {
+    position: absolute;
+    top: 13vw;
+    left: 43vw;
+}
+
+.para1 img {
+    width: 84%;
+}
+
+.para2 {
+    position: absolute;
+    top: 25vw;
+    left: 40%;
+}
+
+.para2 img {
+    width: 45vw;
+}
+
+.ace {
+    width: auto;
+    position: absolute;
+    top: 49vw;
+    left: 7%;
+}
+
+.ace img {
+    width: 27%;
+    margin: 0 3%;
+    height: 22%;
+    float: left;
+}
+
+.para3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 71vw;
+    left: 0%;
+}
+
+.para-p {
+    display: inline-block;
+}
+
+.para-p img {
+    width: 26vw;
+    position: relative;
+    left: 8vw;
+    top: -1vw;
+    margin-right: 5vw;
+}
+
+.pa2 {
+    position: relative;
+    top: 0vw;
+    left: 1vw;
+}
+
+.pa3 {
+    position: relative;
+    top: 3vw;
+    left: -0.5vw;
+}
+
+.para4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 97vw;
+}
+
+.para4 img {
+    width: 80%;
+    position: relative;
+    left: 8%;
+}
+
+.para5 {
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    top: 118vw;
+}
+
+.para5-0 img {
+    width: 55%;
+    position: absolute;
+    right: 35%;
+    top: -8vw;
+}
+
+.para5-1 img {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    top: 2vw;
+    left: 6vw;
+}
+
+.para5-2 {
+    display: inline-block;
+    width: 22vw;
+    position: absolute;
+    right: 9%;
+    top: -9vw;
+}
+
+.para5-2 img {
+    width: 90%;
+}
+
+.para6 {
+    position: absolute;
+    left: 0;
+    top: 128vw;
+    width: 100%;
+    height: 100%;
+}
+
+.para6 img {
+    width: 90%;
+}
+
+.para6 .para6-pic {
+    width: 30vw;
+    height: 20vw;
+    margin: 0 auto;
+    position: relative;
+    top: -10vw;
+    left: 0;
+}
+
+.para6-pic img {
+    position: relative;
+    top: -3vw;
+
+}
+
+.vedio {
+    width: 60vw;
+}
+
+/* 导航 */
+@font-face {
+    font-family: 'indie_flowerregular';
+    src: url('./font/indieflower-1-webfont.woff2') format('woff2'),
+        url('./font/indieflower-1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.my_nav {
+    font-family: 'indie_flowerregular';
+    height: 5.7vw;
+    /* width: 100%; */
+    width: 79.27%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #e8f3ed;
+    border-bottom: 4.5px solid #255d64;
+}
+
+.my_nav div {
+    display: inline-block;
+}
+
+.my_nav div.nav-img {
+    width: 20.75%;
+    height: 100%;
+    display: none;
+}
+
+.my_nav div.nav-img img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.my_nav .nav-item {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 1vw;
+}
+
+.my_nav a {
+    display: inline-block;
+    text-decoration: none;
+    height: auto;
+    margin: 0;
+}
+
+.my_nav a div {
+    height: 2.6vw;
+    margin-right: 1vw;
+    color: #0C4B54;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin: 1.7vw 0.6vw;
+}
+
+.my_nav li {
+    height: 5.7vw;
+    line-height: 5.7vw;
+    overflow: hidden;
+    color: rgb(190, 188, 188);
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+.my_nav li a {
+    display: block;
+    padding: 0 5px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.nav_ul>li {
+    float: right;
+    position: relative;
+}
+
+.nav_ul>li>a {
+    font-weight: bold;
+}
+
+.nav_ul .unfold ul {
+    display: block;
+    background-color: #8fc6be;
+}
+
+.unfold ul li {
+    color: #fff;
+    height: 3vw;
+    line-height: 3vw;
+}
+
+.unfold ul li:hover {
+    color: #0a4a53;
+}
+
+.nav_ul>li:hover {
+    height: auto;
+    color: #0a4a53;
+}
+
+footer {
+    position: absolute;
+    top: 190vw;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    z-index: 3;
+}
+
+footer div {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #888888;
+    overflow: hidden;
+    border-radius: 2% 2% 0 0 / 5% 5% 0 0;
+}
